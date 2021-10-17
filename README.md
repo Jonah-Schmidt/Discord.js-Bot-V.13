@@ -1,6 +1,6 @@
 # Discord.js-Bot-V.13
 
-Hier findet ihr Code mit Kommentaren zu meiner neuen v13 Discord.JS Serie!
+Hier findet ihr Code zu meiner neuen v13 Discord.JS Serie!
 
 Um Code zu benutzen und auszuprobieren, musst du mindestens NodeJS 16 installiert haben!
 Navigiere in den gewünschten Ordner und gebe dort npm install ein.
