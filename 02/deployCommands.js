@@ -10,8 +10,8 @@ commandFiles.forEach(commandFile => {
     commands.push(command.data.toJSON());
 });
 
-const restClient = new REST({ version: "9" }).setToken(process.env.TOKEN);
+const restClient = new REST({version: '9'}).setToken(process.env.TOKEN);
 
 restClient.put(Routes.applicationGuildCommands(process.env.APPLICATION_ID, process.env.GUILD_ID),{
     body: commands
-}).then(() => console.log("Sucessfully registered Commands!")).catch(console.error);
+}).then(() => console.log('Sucessfully registered Commands!')).catch(console.error);

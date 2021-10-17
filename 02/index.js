@@ -27,10 +27,10 @@ client.on('interactionCreate', async (interaction) => {
                     interaction.editReply('Es ist ein Fehler aufgestreten!');
                 }else {
                     interaction.reply('Es ist ein Fehler aufgestreten!');
-                }
-            }
-        }
-    }
+                };
+            };
+        };
+    };
 });
 
 client.login(process.env.TOKEN);
